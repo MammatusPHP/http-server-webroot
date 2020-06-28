@@ -1,0 +1,20 @@
+{
+    "name": "mammatus/http-server-webroot",
+    "description": "HTTP Server webroot implementations",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "mammatus/http-server-contracts": "dev-master"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Mammatus\\Http\\Server\\Webroot\\": "src/"
+        }
+    }
+}
