@@ -2,6 +2,8 @@
 
 namespace Mammatus\Http\Server\Webroot;
 
+use Mammatus\Http\Server\Configuration\Webroot;
+
 final class WebrootPath implements Webroot
 {
     private string $path;
