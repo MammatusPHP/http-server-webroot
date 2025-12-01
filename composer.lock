@@ -8,27 +8,28 @@
     "packages": [
         {
             "name": "mammatus/http-server-contracts",
-            "version": "dev-PHP8.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MammatusPHP/http-server-contracts.git",
-                "reference": "8b65d13efa18dff011688fb9e156cf9f604927cf"
+                "reference": "777c6cc84c2f628cbb679b1e5d059b978a0d63d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MammatusPHP/http-server-contracts/zipball/8b65d13efa18dff011688fb9e156cf9f604927cf",
-                "reference": "8b65d13efa18dff011688fb9e156cf9f604927cf",
+                "url": "https://api.github.com/repos/MammatusPHP/http-server-contracts/zipball/777c6cc84c2f628cbb679b1e5d059b978a0d63d4",
+                "reference": "777c6cc84c2f628cbb679b1e5d059b978a0d63d4",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "^8.4",
                 "php": "^8.4",
-                "psr/http-server-middleware": "^1.0"
+                "psr/http-server-middleware": "^1.0.2"
             },
             "require-dev": {
-                "wyrihaximus/makefiles": "^0.7.10",
-                "wyrihaximus/test-utilities": "^8.6"
+                "wyrihaximus/makefiles": "^0.7.14",
+                "wyrihaximus/test-utilities": "^8.7.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -42,9 +43,9 @@
             "description": "HTTP Server contracts",
             "support": {
                 "issues": "https://github.com/MammatusPHP/http-server-contracts/issues",
-                "source": "https://github.com/MammatusPHP/http-server-contracts/tree/PHP8.4"
+                "source": "https://github.com/MammatusPHP/http-server-contracts/tree/master"
             },
-            "time": "2025-10-26T17:31:48+00:00"
+            "time": "2025-12-01T12:56:08+00:00"
         },
         {
             "name": "psr/http-message",
