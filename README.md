@@ -6,7 +6,7 @@
 [![Type Coverage](https://shepherd.dev/github/mammatusphp/http-server-webroot/coverage.svg)](https://shepherd.dev/github/mammatusphp/http-server-webroot)
 [![License](https://poser.pugx.org/mammatus/http-server-webroot/license.png)](https://packagist.org/packages/mammatus/http-server-webroot)
 
-Concrete types for the [`Webroot`](https://github.com/MammatusPHP/http-server-contracts/blob/main/src/Configuration/Webroot.php) marker interface from [mammatus/http-server-contracts](https://github.com/MammatusPHP/http-server-contracts). Return one from [`Vhost::webroot()`](https://github.com/MammatusPHP/http-server-contracts/blob/main/src/Configuration/Vhost.php); [mammatus/http-server](https://github.com/MammatusPHP/http-server) passes a filesystem directory into generated ReactPHP servers only when the value is a `WebrootPath`.
+Concrete types for the [`Webroot`](https://github.com/MammatusPHP/http-server-contracts/blob/master/src/Configuration/Webroot.php) marker interface from [mammatus/http-server-contracts](https://github.com/MammatusPHP/http-server-contracts). Return one from [`Vhost::webroot()`](https://github.com/MammatusPHP/http-server-contracts/blob/master/src/Configuration/Vhost.php); [mammatus/http-server](https://github.com/MammatusPHP/http-server) passes a filesystem directory into generated ReactPHP servers only when the value is a `WebrootPath`.
 
 # Install
 
@@ -40,7 +40,7 @@ final class FrontendVhost implements Vhost
 }
 ```
 
-Example: [FrontendVhost](https://github.com/MammatusPHP/http-server/blob/main/etc/dev-app/FrontendVhost.php).
+Example: [FrontendVhost](https://github.com/MammatusPHP/http-server/blob/master/etc/dev-app/FrontendVhost.php).
 
 ## WebrootPath
 
@@ -61,7 +61,7 @@ final class HealthCheckVhost implements Vhost
 }
 ```
 
-Example: [HealthCheckVhost](https://github.com/MammatusPHP/healthz-vhost/blob/main/src/HealthCheckVhost.php). Wiring in the server plugin: [Collector](https://github.com/MammatusPHP/http-server/blob/main/src/Composer/Collector.php).
+Example: [HealthCheckVhost](https://github.com/MammatusPHP/healthz-vhost/blob/master/src/HealthCheckVhost.php). Wiring in the server plugin: [Collector](https://github.com/MammatusPHP/http-server/blob/master/src/Composer/Collector.php).
 
 # License
 
